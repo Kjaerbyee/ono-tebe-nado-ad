@@ -5,6 +5,141 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
-  <body></body>
+
+  <body>
+    <header class="header">
+      <nav class="header_navigation">
+        <ul class="header_nav_links">
+          <li class="cover_link"><a href = "#cover">главная</li>
+          <li class="lots_link"><a href = "#lots"></a>посмотреть лоты</li>
+          <li class="about_link"><a href = "#about"></a>об аукционе</li>
+        </ul>
+      </nav>
+
+      <a class="header_logo"> 
+        <img
+          class="header_logo_img"
+          src = "./images/logo-black.svg" 
+          alt = "Логотип оно тебе надо"
+                 />
+      </a>
+
+      <address class="header_adress">
+       <a href="tel:+99995555555" class="header_adress_number" >+9 999 555 5555</a><br>
+       <a href="mailto:info@sobaka.ge" class="header_adress_email">info@sobaka.ge</a><br>
+       <a class="header_adress_location">наб. Принсенграхт 263-<br>265, Амстердам</a>
+      </address>
+    </header>
+
+
+    <main class="main">
+      <section class="cover">
+        <div class="overlay"></div>
+        <h1 class="cover_title">
+          <span class="ono">оно</span>
+          <span class="tebe">тебе</span>
+          <span class="nado">надо</span>
+        </h1>
+        <div class="cover_content">
+          <a class="cover_lower_text">Аукцион вещей, вкоторые никто не верил</a>
+          <button class="cover_button">Сделать ставку</button>
+        </div>
+      </section>
+
+      <section class="lots">
+        <h2 class="Lots_litle">Лоты</h2>
+        <ul class="lots_cards">
+          <li class="lots_card_1">
+            <a class="card_links" href = "#">
+              <article class="film_card">
+                <h3 class="card_1_title">Фильм режиссёра, который бросил киношколу</h3>
+                <p class="card_1_text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
+              </article>
+            </a>
+          </li>
+          <li class="lots_card_2">
+            <a class="card_links" href="#">
+              <article class="book_card">
+                <h3 class="card_2_title">Книга, где описан один скучный день из жизни рекламного агента</h3>
+                <p class="card_2_text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
+              </article>
+            </a>
+          </li>
+          <li class="lots_card_3">
+            <a class="card_links" href="#">
+              <article class="painting_card">
+                <h3 class="card_3_title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+                <p class="card_3_text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
+              </article>
+            </a>
+          </li>
+        </ul>
+         <a href="#" class="lots_look-more-link">посмотреть больше</a>
+      </section>
+
+      <section class="about">
+        <div class="about_logo">
+          <img
+           class="about_logo_img"
+           src="./images/logo-white.svg"
+           alt="Логотип оно тебе надо"
+          />
+        </div>
+        <div class="about_content">
+          <h2 class="about_title">Об аукционе</h2>
+          <p class="about_text_1">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
+          <p class="about_text_2">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <adress class="footer_adress">
+        <a class="footer_adress_number">+9 999 555 5555</a>
+        <a class="footer_adress_email">info@sobaka.ge</a>
+        <a class="footer_adress_location">наб. Принсенграхт 263-265, Амстердам</a>
+      </adress>
+
+     <nav class="footer_navigation">
+        <ul class="footer_nav_links">
+          <li class="footer_cover_link"><a href = "#cover">главная</li>
+          <li class="footer_lots_link"><a href = "#lots"></a>посмотреть лоты</li>
+          <li class="footer_about_link"><a href = "#about"></a>об аукционе</li>
+        </ul>
+      </nav>
+
+      <nav class="social_media_list">
+        <ul class="social_medias">
+          <li class="youtube_link">
+            <img class="youtube_link_img"
+              src="./images/yt.svg"
+              alt="youtube"
+              width="48px"
+              height="48px"
+            />
+          </li>
+          <li class="vk_link">
+            <img class="vk_link_img"
+              src="./images/vk.svg"
+              alt="vkontakte"
+              width="48px"
+              height="48px"
+            />
+          </li>
+          <li class="pinterest_link">
+            <img class="pinterest_link_img"
+              src="./images/pinterest.svg"
+              alt="pinterest"
+              width="48px"
+              height="48px"
+            />
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
 </html>
