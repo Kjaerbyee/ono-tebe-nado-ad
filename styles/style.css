@@ -127,15 +127,17 @@
 }
 
 .cover_button {
-    color: inherit;
+    height: 51px;
+    padding: 12px 32px 11px 31px;
     background-color: transparent;
-    border: 1px solid white;
-    padding: 12px 32px;
-    font-size: 22px;
-    font-weight: 500;
+    border-width: 1px;
+    border-color: white;
     text-transform: uppercase;
-    text-align: center;
-    cursor: pointer;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: white;
 }
 
 .Lots_litle {
@@ -286,48 +288,50 @@
 
 .about {
     display: grid;
-    grid-template-columns: 240px 1fr;
-    gap: 72px;
-    padding: 33px 24px 180px 71px;
+    grid-template-columns: 334px 1fr;
+    height: 595px;
+    margin: 118px 24px 173px 24px;
 }
 
 .about_logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 29px;
+    margin-left: 47px;
     width: 240px;
     height: 240px;
-    background-color: #000;
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
+    background-color: black;
 }
 
 .about_logo_img {
     width: 148px;
-    height: 114px;
 }
 
 .about_title {
+    padding-left: 25px;
+    padding-top: 133px;
+    padding-bottom: 103px;
+    font-weight: 700;
     font-size: 40px;
-    font-weight: bold;
+    line-height: 100%;
     text-transform: uppercase;
-    margin: 101px 0 0 0;
+}
+
+.about_content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    min-height: 312px;
+    padding-left: 25px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0;
 }
 
 .about_text_1 {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    font-size: 20px;
-    margin-top: 100px;
-}
-
-.about_text_2 {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    font-size: 20px;
-    margin-top: 100px;
+    padding-right: 5px;
 }
 
 .footer_adress {
